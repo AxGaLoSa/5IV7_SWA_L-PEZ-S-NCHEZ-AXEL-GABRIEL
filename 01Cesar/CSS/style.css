@@ -1,0 +1,57 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+    background: linear-gradient(120deg, #34a57a, #3734db);
+    color: white;
+    text-align: center; /* Para centrar la mayoría de los elementos en la página */
+}
+
+.container {
+    max-width: 600px; /* Limit the width for better readability */
+    margin: 2rem auto; /* Centers the container */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Slight "glassmorphism" effect */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Soft shadow around the container */
+}
+
+h1 {
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* Shadow for readability */
+    letter-spacing: 2px;
+    margin-bottom: 1.5rem; /* Space below the title */
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.3); /* Slight transparency for input fields */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    padding: 12px 25px;
+    margin-right: 10px; /* Space between the buttons */
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#resultado {
+    margin-top: 1rem;
+    font-weight: bold;
+}
